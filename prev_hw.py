@@ -8,6 +8,7 @@ cook_book = {'Омлет': [{'ingredient_name': 'Яйцо', 'quantity': 2, 'meas
 
 
 @logger
+# @logger('log.log')
 def get_shop_list_by_dishes(dishes, person_count):
     shop_list = {}
     for dish in dishes:
